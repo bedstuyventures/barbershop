@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="@dimen/head_width_height"
+        android:layout_height="@dimen/head_width_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/image_head_top"
+        android:contentDescription="@string/img_desc" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit_store"
+            style="@style/editText_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_shap"
+            android:drawableLeft="@drawable/barber_icon"
+            android:hint="@string/barber_lab"
+            android:singleLine="true"
+            android:textSize="@dimen/login_textsize" />
+
+        <EditText
+            android:id="@+id/edit_user"
+            style="@style/editText_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_shap"
+            android:drawableLeft="@drawable/user_icon"
+            android:hint="@string/name_lab"
+            android:singleLine="true"
+            android:textSize="@dimen/login_textsize" />
+
+        <EditText
+            android:id="@+id/edit_pwd"
+            style="@style/editText_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_shap"
+            android:drawableLeft="@drawable/pwd_icon"
+            android:hint="@string/password_lab"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:textSize="@dimen/login_textsize" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/editText_style"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/btn_login_height"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_bg_selector"
+        android:text="@string/login_lab" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/copyright"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_1" />
+
+</LinearLayout>

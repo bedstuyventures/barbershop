@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">barbershop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="copyright">Copyright ©2014 Powered By Jie.Tang Version 1.0.0</string>
+    <string name="login_lab">Sign   in</string>
+    <string name="barber_lab">barber shop</string>
+    <string name="name_lab">user name</string>
+    <string name="password_lab">password</string>
+    <string name="img_desc">images</string>
+    <string name="store_name_err">店名不能为空</string>
+    <string name="user_name_err">用户名不能为空</string>
+    <string name="password_err">请输入密码</string>
+
+</resources>
